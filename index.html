@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />  
+  <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+  <title>Job Landing Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+    <form action="" class="box">
+        <h1><strong>JOB APPLICATION</strong></h1>
+        <div class="form-container">
+            <div class="control-flow">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" placeholder="Enter First Name" required>
+            </div>
+
+            <div class="control-flow">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" placeholder="Enter Last Name" required>
+            </div>
+
+            <div class="control-flow">
+                <label for="email">Email:</label>
+                <input type="email" name="" id="email" placeholder="Enter email" required>
+            </div>
+
+            <div class="control-flow">
+                <label for="job-role">Job Role:</label>
+                <select name="Job-Role" id="job-role">
+                    <option selected="selected">Select Job Role</option>
+                    <option value="Backend Developer">Backend Developer</option>
+                    <option value="Frontend Developer">Frontend Developer</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                    <option value="Software Engineer">Software Engineer</option>
+                    <option value="Data Handler">Data Handler</option>
+                </select>
+            </div>
+            
+            <div class="control-flow textarea-control">
+                <label for="addres">Enter Address:</label>
+                <textarea name="address" id="addres" cols="25" rows="5" placeholder="Enter Address ..."></textarea>
+            </div>
+
+            <div class="control-flow">
+                <label for="city">City:</label>
+                <input type="text" id="city" placeholder="Enter City">
+            </div>
+
+            <div class="control-flow">
+                <label for="pincode">Pincode:</label>
+                <input type="number" id="pincode" placeholder="Enter Pincode">
+            </div>
+
+            <div class="control-flow">
+                <label for="sdate">Start Date:</label>
+                <input  type="date" value="2023-04-09" id="sdate" >
+            </div>
+    
+            <div class="control-flow">
+                <label for="fileCV">Upload Your CV:</label>
+                <input type="file" id="fileCV" >
+            </div>
+
+        </div>
+        
+        <div class="button-contol">
+            <button type="submit">Apply Now</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
